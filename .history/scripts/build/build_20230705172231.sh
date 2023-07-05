@@ -2,7 +2,7 @@
 
 # Copy the new jar to the build location
 ls -l
-cp -f marco-pipeline/target/*.jar scripts/build/
+cp -f smarco-pipeline/target/*.jar scripts/build/
 
 echo "****************************"
 echo "** Building Docker Image ***"
