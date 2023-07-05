@@ -5,9 +5,6 @@ pipeline {
     tools {
         maven 'maven-jenkins'
     }
-    environment {
-        PASS = credentials('registry-pass') 
-    }
     stages {
         stage('Build') {
             steps {
