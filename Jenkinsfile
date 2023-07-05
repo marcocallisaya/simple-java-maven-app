@@ -3,7 +3,7 @@ pipeline {
         label 'slave1'
     }
     tools {
-        maven 'mvn-jenkins'
+        maven 'maven-jenkins'
     }
     stages {
         stage('Build') {
