@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+              //echo 'Hola mundo'
               sh '''
               mvn -B -DskipTests clean package
               ./scripts/build/build.sh
