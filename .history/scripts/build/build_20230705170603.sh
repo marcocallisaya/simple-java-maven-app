@@ -8,4 +8,4 @@ echo "** Building Docker Image ***"
 echo "****************************"
 
 cd scripts/build/
-docker compose -f docker-compose-build.yml build --no-cache
+sdocker compose -f docker-compose-build.yml build --no-cache
